@@ -1,0 +1,17 @@
+{
+  "name": "wordguess-game",
+  "version": "1.0.0",
+  "description": "A simple guess the word game",
+  "bin": "index.js",
+  "pkg": {
+    "assets": "assets/**",
+    "targets": ["node14-macos-x64", "node14-linux-x64", "node14-win-x64"],
+    "outputPath": "dist" 
+  },
+  "author": "Bruno Paolillo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chance": "^1.1.7"
+  }
+}
